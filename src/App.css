@@ -7,6 +7,44 @@
   pointer-events: none;
 }
 
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+}
+
+.profileimage{
+  display: flex;
+  flex:1;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.profiletext{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height:500px;
+}
+
+#profileimage{
+  width: 510px;
+  height: 390px;
+  padding: 10px 20px 0px 0px;
+}
+
+#profileimage:hover{
+  width: 520px;
+  height: 397px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
