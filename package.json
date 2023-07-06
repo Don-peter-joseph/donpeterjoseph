@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Don-peter-joseph.github.io/donpeterjoseph",
+  "homepage": "https://Don-peter-joseph.github.io",
   "private": true,
   "dependencies": {
     "@stichiboi/react-elegant-mouse-trail": "^0.1.8",
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
