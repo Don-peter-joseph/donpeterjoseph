@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/donpeterjoseph/static/css/main.5cf36d4d.css",
+    "main.js": "/donpeterjoseph/static/js/main.b2bc6613.js",
+    "static/media/don1.png": "/donpeterjoseph/static/media/don1.d0f6d6338bbb79f64bd2.png",
+    "static/media/resume.pdf": "/donpeterjoseph/static/media/resume.2918b5584f685d6e1bcb.pdf",
+    "index.html": "/donpeterjoseph/index.html",
+    "main.5cf36d4d.css.map": "/donpeterjoseph/static/css/main.5cf36d4d.css.map",
+    "main.b2bc6613.js.map": "/donpeterjoseph/static/js/main.b2bc6613.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf36d4d.css",
+    "static/js/main.b2bc6613.js"
+  ]
+}
