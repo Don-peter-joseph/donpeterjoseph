@@ -4,10 +4,11 @@ import { Route,Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { motion, } from 'framer-motion';
 import don from './images/don1.png';
-import React,{ useState } from 'react';
-import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
-import { Document, Page } from 'react-pdf';
+import resume from './images/resume.jpg';
 import pdfFile from './images/resume.pdf';
+import React from 'react';
+import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
+import { saveAs } from 'file-saver'; 
 
 const Home=()=>{
 
@@ -73,12 +74,23 @@ const Projects=()=>{
   )
 }
 const Resume=()=>{
-  return(
+
+  const handleDownload = async () => {
+    try {
+      const pdfData = await fetch(pdfFile).then((res) => res.blob());
+      saveAs(pdfData, 'resume.pdf');
+    } catch (error) {
+      console.error('Error while downloading the PDF:', error);
+    }
+  };
+
+  return( 
     <>
       <Navbar/>
-      <Document file={pdfFile}>
-        <Page pageNumber={1} />
-      </Document>
+      <img src={resume} alt='resume' id='resume' style={{width:'107%'}}/>
+      <div style={{justifyContent:'center',display:'flex'}}>
+        <button className='download' onClick={handleDownload}>Download</button>
+      </div>
     </>
   )
 }

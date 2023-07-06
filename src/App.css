@@ -34,6 +34,21 @@
   height:500px;
 }
 
+.download{
+  background-color: red;
+  padding: 20px 25px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.download:hover{
+  background-color: rgb(24, 216, 43);
+  color: black;
+  transition: .3s ease-in-out;
+}
+
 #profileimage{
   width: 510px;
   height: 390px;
