@@ -9,6 +9,10 @@ import pdfFile from './images/resume.pdf';
 import React from 'react';
 import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
 import { saveAs } from 'file-saver'; 
+import Aboutme from './components/Aboutme';
+import Project from './components/Projects';
+import { Gallary,Creators,Tools } from './components/Projects';
+import Contactme from './components/Contactme';
 
 const Home=()=>{
 
@@ -61,7 +65,7 @@ const About=()=>{
   return(
     <>
       <Navbar/>
-      <h2>this is about page</h2>
+      <Aboutme/>
     </>
   )
 }
@@ -70,6 +74,7 @@ const Projects=()=>{
   return(
     <>
       <Navbar/>
+      <Project/>
     </>
   )
 }
@@ -98,7 +103,7 @@ const Contact=()=>{
   return(
     <>
       <Navbar/>
-      <h2>this is Contact page</h2>
+      <Contactme/>
     </>
   )
 }
@@ -113,6 +118,9 @@ function App() {
         <Route exact path='/projects' element={<Projects/>}/>
         <Route exact path='/resume' element={<Resume/>}/>
         <Route exact path='/contact' element={<Contact/>}/>
+        <Route exact path='/projects/creators' element={<Creators/>}/>
+        <Route exact path='/projects/gallary' element={<Gallary/>}/>
+        <Route exact path='/projects/tools' element={<Tools/>}/>
       </Routes>
     </>
   );
