@@ -28,7 +28,7 @@ const Project=()=>{
             <div className='outline'>
                 
                 <div className='projectcard'>
-                <div className='about'>
+                    <div className='about'>
                         <h1 className='heading'>HealthPad Mobile Application</h1>
                         <h4 className='subheading'>Project Duration : july 2022 - May 2023</h4>
                         <div className='buttons'>

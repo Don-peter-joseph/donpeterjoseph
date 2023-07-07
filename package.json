@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Don-peter-joseph.github.io/donpeterjoseph",
+  "homepage": "https://don-peter-joseph.github.io/donpeterjoseph/",
   "private": false,
   "dependencies": {
     "@stichiboi/react-elegant-mouse-trail": "^0.1.8",

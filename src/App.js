@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Route,Routes } from 'react-router-dom';
+import { Route,Routes,Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { motion, } from 'framer-motion';
 import don from './images/don1.png';
@@ -113,7 +113,7 @@ function App() {
     <>
       <MouseTrail strokeColor={"aqua"} lineDuration={3} lineWidthStart={13} lag={.3}/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/donpeterjoseph' element={<Home/>}/>
         <Route exact path='/about' element={<About/>}/>
         <Route exact path='/projects' element={<Projects/>}/>
         <Route exact path='/resume' element={<Resume/>}/>
