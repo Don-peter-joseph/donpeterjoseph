@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "homepage": "https://Don-peter-joseph.github.io/donpeterjoseph",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@stichiboi/react-elegant-mouse-trail": "^0.1.8",
     "@testing-library/jest-dom": "^5.16.5",
