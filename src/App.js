@@ -13,6 +13,7 @@ import Aboutme from './components/Aboutme';
 import Project from './components/Projects';
 import { Gallary,Creators,Tools } from './components/Projects';
 import Contactme from './components/Contactme';
+import { Certifications } from './components/Aboutme';
 
 const Home=()=>{
 
@@ -121,6 +122,7 @@ function App() {
         <Route exact path='/projects/creators' element={<Creators/>}/>
         <Route exact path='/projects/gallary' element={<Gallary/>}/>
         <Route exact path='/projects/tools' element={<Tools/>}/>
+        <Route exact path='certifications' element={<Certifications/>}/>
       </Routes>
     </>
   );

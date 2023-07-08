@@ -53,11 +53,11 @@
   width: 510px;
   height: 390px;
   padding: 10px 20px 0px 0px;
+  transition: .2s ease-in;
 }
 
 #profileimage:hover{
-  width: 520px;
-  height: 397px;
+  transform: scale(1.1);
 }
 
 @media (prefers-reduced-motion: no-preference) {
