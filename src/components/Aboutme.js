@@ -4,8 +4,15 @@ import don from '../images/don3.png'
 
 const Certifications2=()=>{
     const certifications={
-        'Silver Badge in C in Hackerrank':null,
-        'First position in code debugging':'https://www.google.com'
+        'Silver Badge in C in Hackerrank':'https://www.hackerrank.com/peterdon484?hr_r=1',
+        'First position in code debugging':'https://www.google.com',
+        'Web Development Training by Internshala':'https://drive.google.com/file/d/164nYwXNNMjFGDgQgiUMi-Uu_2DgrNod_/view?usp=drive_link',
+        '3 day workshop on machine learning':'https://drive.google.com/drive/folders/112lcujKRiLNGr11ThqOzeamifw0dNMFX',
+        'Completed "Programming in C" offered by NPTEL':'https://drive.google.com/drive/folders/112lcujKRiLNGr11ThqOzeamifw0dNMFX',
+        'Digital Marketing Virtual Internship':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
+        'Introduction to Python Course completion Certificate by Udemy':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
+        'MongoDB Basics proof of completion':'https://drive.google.com/drive/folders/154fhUWd9FTgyLhDuUA5axzLmX3UTYHN0',
+
     }
 
     return(
@@ -37,6 +44,9 @@ const Aboutme=()=>{
         'C':5,
         'Python':5,
         'React Native':5,
+        'HTML5':5,
+        'CSS3':5,
+        'Data Structures and Algorithms':4,
         'React':3,
         'MySQL':3,
         'MongoDB':3,
@@ -54,7 +64,22 @@ const Aboutme=()=>{
 
     const highlights={
         'Given online classes for competative programming':null,
-        'First position in code debugging':'www.google.com'
+        'First position in code debugging':'https://drive.google.com/drive/folders/10WGJ1AC5K3UlkcrlYY9llZWhq3GZS__w',
+        'Participated in workshop for "3D Game Design using Augmented Reality"':'https://drive.google.com/drive/folders/111XvSyXXYjvcSMhydItHR86yxzojzjr2',
+        'Second place in Football':'https://drive.google.com/drive/folders/112lcujKRiLNGr11ThqOzeamifw0dNMFX',
+        'IEEE WIE Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
+        'IEEE SIGHT Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
+        'IEEE Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
+        'IEEE ComSoc Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
+        'Attended Personal Enhancement Workshop':'https://drive.google.com/drive/folders/10WGJ1AC5K3UlkcrlYY9llZWhq3GZS__w',
+        'Third in Coding by Daksha':'https://drive.google.com/drive/folders/10WGJ1AC5K3UlkcrlYY9llZWhq3GZS__w',
+        'Pariticipated in IEEE Xtreme':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
+        'Web Master of IEEE SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
+        'Techinical Coordinator of IEEE SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
+        'Present in Design team of IEEE SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
+        'Chair of ComSoc SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
+        'Particpated in AISYWLC21 by IEEE Kerala Section':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
+
     }
 
     return(
