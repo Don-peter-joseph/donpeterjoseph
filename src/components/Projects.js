@@ -1,6 +1,12 @@
 import dical from '../images/home.png';
 import './Projects.css';
 import { NavLink } from "react-router-dom";
+import don from "../images/me.JPG";
+import sreehari from "../images/sreehari.JPG";
+import amith from "../images/amith.jpg";
+import Navbar from './Navbar';
+
+
 
 const Gallary=()=>{
     return(
@@ -10,7 +16,23 @@ const Gallary=()=>{
 
 const Creators=()=>{
     return(
-        <h1>haha</h1>
+        <>
+            <Navbar/>
+            <div className='outline' style={{justifyContent:'center',alignItems:'center'}}>
+                <a className="box" href='https://www.linkedin.com/in/don-peter-joseph-bb4b411a7/' target='_blank'>
+                    <img src={don} alt="mail" style={{width:80,borderRadius:50}}/>
+                    <h3>Don Peter Joseph</h3>
+                </a>
+                <a className="box" href='https://www.linkedin.com/in/sreehari-p-136254242/' target='_blank'>
+                    <img src={sreehari} alt="mail" style={{width:80,borderRadius:50}}/>
+                    <h3>Amith Bino</h3>
+                </a>
+                <a className="box" href='https://www.linkedin.com/in/amithbino/' target='_blank'>
+                    <img src={amith} alt="mail" style={{width:80,borderRadius:50}}/>
+                    <h3>Sreehari P</h3>
+                </a>
+            </div>
+        </>
     )
 }
 
@@ -25,14 +47,14 @@ const Tools=()=>{
 const Project=()=>{
     return(
         <>
-            <div className='outline'>
+            <div className='outline page-animation'>
                 
                 <div className='projectcard'>
                     <div className='about'>
                         <h1 className='heading'>HealthPad Mobile Application</h1>
                         <h4 className='subheading'>Project Duration : july 2022 - May 2023</h4>
                         <div className='buttons'>
-                                <span className="btn2"><NavLink to='/projects/gallary' className="btn">Gallary</NavLink></span>
+                                <span className="btn2"><a href="https://youtu.be/rrT81SloZI4" target="_blank" className="btn">Gallary</a></span>
                                 <span className="btn2"><NavLink to='/projects/creators' className="btn">Creators</NavLink></span>
                                 <span className="btn2"><NavLink to='/projects/tools' className="btn">Tools</NavLink></span>
                                 <span className="btn2"><a href='https://github.com/Don-peter-joseph/MAIN_PROJECT' target="_blank" className='btn'>Github link</a></span>

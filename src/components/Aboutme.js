@@ -16,7 +16,7 @@ const Certifications2=()=>{
     }
 
     return(
-        <div className='certifications'>
+        <div className='certifications page-animation'>
             <h1 id='subtitle'>Certifications</h1>
             {Object.keys(certifications).map((key,index)=>{
                 return(
@@ -83,7 +83,7 @@ const Aboutme=()=>{
     }
 
     return(
-        <div className='aboutoutline'>
+        <div className='aboutoutline page-animation'>
 
             <div className='info'>
                 <h1 id='subtitle'>Basic Info</h1>

@@ -18,6 +18,14 @@ ul{
     background-color: aliceblue;
     padding: 20px;
     height: 7vh;
+    position: sticky;
+    top:0px;
+    width: 100%;
+    z-index: 999;
+}
+
+.hidden{
+    z-index: -999;
 }
 
 .toprightbar{
@@ -26,6 +34,24 @@ ul{
     margin-right: 20px;
     height: 6vh;
     justify-content: center;
+}
+
+.transition {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Animation styles for page content */
+@keyframes fade-in {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+
+.page-animation {
+animation: fade-in 0.3s ease-in-out;
 }
 
 .button{
@@ -38,6 +64,19 @@ ul{
     /* border: 1px solid black; */
     transition: transform 0.5s ease;
 }
+
+.active-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    color: black;
+    font-family:  sans-serif,'Arial Narrow', Arial, 'Franklin Gothic Medium';
+    font-size: 20px;
+    /* border: 1px solid black; */
+    transition: transform 0.5s ease;
+    background-color: rgb(78, 173, 173);
+}
+
 
 .button:hover{
     background-color: rebeccapurple;

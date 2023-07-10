@@ -37,7 +37,7 @@ const Home=()=>{
     <>
       <Navbar/>
        
-      <div className='profile'>
+      <div className='profile page-animation'>
 
         <div className='profiletext' >
           <span>Hi,</span>
@@ -93,9 +93,11 @@ const Resume=()=>{
   return( 
     <>
       <Navbar/>
-      <img src={resume} alt='resume' id='resume' style={{width:'107%'}}/>
-      <div style={{justifyContent:'center',display:'flex'}}>
-        <button className='download' onClick={handleDownload}>Download</button>
+      <div className='page-animation'>
+        <img src={resume} alt='resume' id='resume' style={{width:'107%'}}/>
+        <div style={{justifyContent:'center',display:'flex'}}>
+          <button className='download' onClick={handleDownload}>Download</button>
+        </div>
       </div>
     </>
   )

@@ -19,7 +19,7 @@ const Contactme=()=>{
       };
 
     return(
-        <div className="outline" >
+        <div className="outline page-animation" >
             <h1 style={{width:'100%',textAlign:'center',padding:'30px',fontFamily:'sans-serif'}}>Contact me</h1>
             <a className="box" onClick={handleEmailClick}>
                 <img src={mail} alt="mail" style={{width:50}}/>
