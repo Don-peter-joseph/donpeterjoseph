@@ -24,43 +24,43 @@ const Gallary=()=>{
         <>
         <Navbar/>
         <div className='gallary'>
-            <div>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={home} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Home Page</h3>
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>    
+            <div style={{height:'250vh',textAlign:'center'}}>    
                 <img src={settings} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Settings Page</h3>
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={resetotp} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Reset Password Page</h3>                
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={searchbar} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Searchbar</h3>                
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={photos} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Gallary</h3>
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={jumptomonth} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Calender</h3>                
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={jump} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Jump to Month Page</h3>                
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={diary} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Diary Page</h3>                
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={signup} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Signup Page</h3>                
             </div>
-            <div style={{height:'200vh',textAlign:'center'}}>
+            <div style={{height:'250vh',textAlign:'center'}}>
                 <img src={signin} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
                 <h3>Signin Page</h3>                
             </div>
