@@ -22,10 +22,11 @@ ul{
     top:0px;
     width: 100%;
     z-index: 999;
+    flex-wrap: wrap;
 }
 
 .hidden{
-    z-index: -999;
+    visibility: hidden;
 }
 
 .toprightbar{
@@ -34,6 +35,7 @@ ul{
     margin-right: 20px;
     height: 6vh;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .transition {

@@ -1,16 +1,73 @@
 import dical from '../images/home.png';
 import './Projects.css';
-import { NavLink } from "react-router-dom";
+import { NavLink,useParams } from "react-router-dom";
 import don from "../images/me.JPG";
 import sreehari from "../images/sreehari.JPG";
 import amith from "../images/amith.jpg";
+import home from "../images/home.png";
+import search from "../images/search.png";
+import diary from "../images/diary.png";
+import jump from "../images/jump.png";
+import jumptomonth from "../images/jumptomonth.png";
+import photos from "../images/photos.png";
+import resetotp from "../images/resetotp.png";
+import searchbar from "../images/searchbar.png";
+import settings from "../images/settings.png";
+import signin from "../images/signin.png";
+import signup from "../images/signup.png";
 import Navbar from './Navbar';
-
+import { useLocation } from 'react-router-dom';
 
 
 const Gallary=()=>{
     return(
-        <h1>haha</h1>
+        <>
+        <Navbar/>
+        <div className='gallary'>
+            <div>
+                <img src={home} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Home Page</h3>
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>    
+                <img src={settings} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Settings Page</h3>
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={resetotp} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Reset Password Page</h3>                
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={searchbar} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Searchbar</h3>                
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={photos} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Gallary</h3>
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={jumptomonth} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Calender</h3>                
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={jump} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Jump to Month Page</h3>                
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={diary} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Diary Page</h3>                
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={signup} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Signup Page</h3>                
+            </div>
+            <div style={{height:'200vh',textAlign:'center'}}>
+                <img src={signin} alt="mail" style={{width:'47vw',margin:10,borderWidth:2,borderColor:'black',borderStyle:'solid'}}/>
+                <h3>Signin Page</h3>                
+            </div>
+
+
+        </div>
+        </>
     )
 }
 
@@ -37,14 +94,38 @@ const Creators=()=>{
 }
 
 const Tools=()=>{
+    let location=useLocation();
+    const searchParams = new URLSearchParams(location.search);
+    const name = searchParams.get('name');
+    const tools1=['React Native','Node JS','Express JS','MongoDB','Android Studio','Expo CLI','Expo Go','Postman']
+    const tools2=['React Native','Android Studio','Expo CLI','Expo Go','AWS Amplify','AWS DynamoDB',
+                    'AWS Rekognition','AWS SageMaker','AWS Lambda','AWS API Gateway','AWS CloudWatch']
+
     return(
-        <div>
-            <h1>hi </h1>
-        </div>
+        <>
+            <Navbar/>
+            <div className='certifications page-animation'>
+                <h1 id='subtitle'>Tools Used</h1>
+                {name=='healthpad' &&
+                tools1.map((value,index)=>{
+                    return(
+                        <span className='skill highlightbutton'>{value}</span>
+                    )
+                })}
+                {name=='dical' &&
+                tools2.map((value,index)=>{
+                    return(
+                        <span className='skill highlightbutton'>{value}</span>
+                    )
+                })}
+            </div>
+        </>
     )
 }
 
 const Project=()=>{
+
+
     return(
         <>
             <div className='outline page-animation'>
@@ -56,7 +137,7 @@ const Project=()=>{
                         <div className='buttons'>
                                 <span className="btn2"><a href="https://youtu.be/rrT81SloZI4" target="_blank" className="btn">Gallary</a></span>
                                 <span className="btn2"><NavLink to='/projects/creators' className="btn">Creators</NavLink></span>
-                                <span className="btn2"><NavLink to='/projects/tools' className="btn">Tools</NavLink></span>
+                                <span className="btn2"><NavLink to='/projects/tools?name=healthpad' className="btn">Tools</NavLink></span>
                                 <span className="btn2"><a href='https://github.com/Don-peter-joseph/MAIN_PROJECT' target="_blank" className='btn'>Github link</a></span>
                                 <span className="btn2"><a href='https://expo.dev/accounts/donpeterjoseph/projects/HEALTHPAD/builds/569fb502-f338-49ef-b746-66a81b542972' target="_blank" className='btn'>Apk link</a></span>
                         </div>
@@ -89,8 +170,7 @@ const Project=()=>{
                         <h4 className='subheading'>Project Duration : july 2021 - December 2021</h4>
                         <div className='buttons'>
                                 <span className="btn2"><NavLink to='/projects/gallary' className="btn">Gallary</NavLink></span>
-                                <span className="btn2"><NavLink to='/projects/creators' className="btn">Creators</NavLink></span>
-                                <span className="btn2"><NavLink to='/projects/tools' className="btn">Tools</NavLink></span>
+                                <span className="btn2"><NavLink to='/projects/tools?name=dical' className="btn">Tools</NavLink></span>
                                 <span className="btn2"><a href='https://github.com/Don-peter-joseph/REACT-NATIVE-APP' target="_blank" className='btn'>Github link</a></span>
                         </div>
                     </div>
