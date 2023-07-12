@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/donpeterjoseph/static/css/main.e349c345.css",
-    "main.js": "/donpeterjoseph/static/js/main.bf03ffaf.js",
+    "main.js": "/donpeterjoseph/static/js/main.478d504a.js",
     "static/media/sreehari.JPG": "/donpeterjoseph/static/media/sreehari.d968e6a0acb9995e5bb1.JPG",
     "static/media/home.png": "/donpeterjoseph/static/media/home.f7df4335eabb1aa1d12e.png",
     "static/media/photos.png": "/donpeterjoseph/static/media/photos.ae95e9c37430489709e3.png",
@@ -24,10 +24,10 @@
     "static/media/phone.png": "/donpeterjoseph/static/media/phone.69a21bef6b5191c8de9f.png",
     "index.html": "/donpeterjoseph/index.html",
     "main.e349c345.css.map": "/donpeterjoseph/static/css/main.e349c345.css.map",
-    "main.bf03ffaf.js.map": "/donpeterjoseph/static/js/main.bf03ffaf.js.map"
+    "main.478d504a.js.map": "/donpeterjoseph/static/js/main.478d504a.js.map"
   },
   "entrypoints": [
     "static/css/main.e349c345.css",
-    "static/js/main.bf03ffaf.js"
+    "static/js/main.478d504a.js"
   ]
 }
