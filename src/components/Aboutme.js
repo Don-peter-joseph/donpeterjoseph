@@ -5,13 +5,12 @@ import don from '../images/don3.png'
 const Certifications2=()=>{
     const certifications={
         'Silver Badge in C in Hackerrank':'https://www.hackerrank.com/peterdon484?hr_r=1',
-        'First position in code debugging':'https://www.google.com',
         'Web Development Training by Internshala':'https://drive.google.com/file/d/164nYwXNNMjFGDgQgiUMi-Uu_2DgrNod_/view?usp=drive_link',
-        '3 day workshop on machine learning':'https://drive.google.com/drive/folders/112lcujKRiLNGr11ThqOzeamifw0dNMFX',
-        'Completed "Programming in C" offered by NPTEL':'https://drive.google.com/drive/folders/112lcujKRiLNGr11ThqOzeamifw0dNMFX',
-        'Digital Marketing Virtual Internship':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
-        'Introduction to Python Course completion Certificate by Udemy':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
-        'MongoDB Basics proof of completion':'https://drive.google.com/drive/folders/154fhUWd9FTgyLhDuUA5axzLmX3UTYHN0',
+        '3 day workshop on machine learning':'https://drive.google.com/file/d/1Apk2aS1q2Xm9D1-G9IAb78QHdMZYdRSW/view?usp=drive_link',
+        'Completed "Programming in C" offered by NPTEL':'https://drive.google.com/file/d/1_xVMKzb4IxfHn9-s1kYcc4m0XvGr7VQC/view?usp=drive_link',
+        'Digital Marketing Virtual Internship':'https://drive.google.com/file/d/1dVtmJsSzwYlVUQrSBR6Wsp8-YJ_uq2JU/view?usp=drive_link',
+        'Introduction to Python Course completion Certificate by Udemy':'https://drive.google.com/file/d/1TgmIMcQS0p_yNLAJMwC3ctwrcM12Rhqx/view?usp=drive_link',
+        'MongoDB Basics proof of completion':'https://drive.google.com/file/d/1uoptWrpgta8AU6hQPyz4KOUbgyfn9rMP/view?usp=drive_link',
 
     }
 
@@ -64,21 +63,21 @@ const Aboutme=()=>{
 
     const highlights={
         'Given online classes for competative programming':null,
-        'First position in code debugging':'https://drive.google.com/drive/folders/10WGJ1AC5K3UlkcrlYY9llZWhq3GZS__w',
-        'Participated in workshop for "3D Game Design using Augmented Reality"':'https://drive.google.com/drive/folders/111XvSyXXYjvcSMhydItHR86yxzojzjr2',
-        'Second place in Football':'https://drive.google.com/drive/folders/112lcujKRiLNGr11ThqOzeamifw0dNMFX',
-        'IEEE WIE Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
-        'IEEE SIGHT Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
-        'IEEE Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
-        'IEEE ComSoc Member':'https://drive.google.com/drive/folders/118XavVSNmvy3VovB5pewxk2DATODSHI2',
-        'Attended Personal Enhancement Workshop':'https://drive.google.com/drive/folders/10WGJ1AC5K3UlkcrlYY9llZWhq3GZS__w',
-        'Third in Coding by Daksha':'https://drive.google.com/drive/folders/10WGJ1AC5K3UlkcrlYY9llZWhq3GZS__w',
-        'Pariticipated in IEEE Xtreme':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
-        'Web Master of IEEE SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
-        'Techinical Coordinator of IEEE SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
-        'Present in Design team of IEEE SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
-        'Chair of ComSoc SB CE Poonjar':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
-        'Particpated in AISYWLC21 by IEEE Kerala Section':'https://drive.google.com/drive/folders/1XglAVQ600CT8K_WYVurkeyyM2783LTOV',
+        'First position in code debugging':'https://drive.google.com/file/d/1YN7aAfkPh7F7wSP-VKohZFdj8MpMvP23/view?usp=drive_link',
+        'Participated in workshop for "3D Game Design using Augmented Reality"':'https://drive.google.com/file/d/1HiUhfSbLI4Xv5QV-0Z0f9XzKPDYu8M_q/view?usp=drive_link',
+        'Second place in Football':'https://drive.google.com/file/d/16DGMTXU0RGKCt6PQDYoijw7OzKAIDqaW/view?usp=drive_link',
+        'IEEE WIE Member':'https://drive.google.com/file/d/1o9nRU8B_GBxazyoteMD0nx5k_O-kPkko/view?usp=drive_link',
+        'IEEE SIGHT Member':'https://drive.google.com/file/d/11BsFnwoLXBrHUy-J1ByFDpf7F9Y1Q4sM/view?usp=drive_link',
+        'IEEE Member':'https://drive.google.com/file/d/1WFNLlQ4_cXuWtW3GtjG0dqRl11_3k_JZ/view?usp=drive_link',
+        'IEEE ComSoc Member':'https://drive.google.com/file/d/1iVNx-zeDGq4iKctmyFxNYIbkIjOsyp9Z/view?usp=drive_link',
+        'Attended Personal Enhancement Workshop':'https://drive.google.com/file/d/1hToOh70kcgU6PeUbVDMj85N4cFLMv7bd/view?usp=drive_link',
+        'Third in Coding by Daksha':'https://drive.google.com/file/d/1pXDJESOX91UGwE3QT43tXJCwgyZee_DJ/view?usp=drive_link',
+        'Pariticipated in IEEE Xtreme':'https://drive.google.com/file/d/17wwW8ohRxOaUrXFTJ3Yk-xlilRDCsKua/view?usp=drive_link',
+        'Web Master of IEEE SB CE Poonjar':'https://drive.google.com/file/d/1Fopn3vRhhQWx4eBVmyWddUe3vZEwA2Q5/view?usp=drive_link',
+        'Techinical Coordinator of IEEE SB CE Poonjar':'https://drive.google.com/file/d/1FuXehcDeb9PWyRSIUcHuyc-vaDlKfkLg/view?usp=drive_link',
+        'Present in Design team of IEEE SB CE Poonjar':'https://drive.google.com/file/d/1Fw3DAeKiOiZ6udjyAbcN-vskQo_4Rz5b/view?usp=drive_link',
+        'Chair of ComSoc SB CE Poonjar':'https://drive.google.com/file/d/1FtkrQ6Uzl5vYlZrR7FCL6EpO0ToTS3M7/view?usp=drive_link',
+        'Particpated in AISYWLC21 by IEEE Kerala Section':'https://drive.google.com/file/d/1bbJHvx3rD8X3jypYnr_u1oaunKodat8R/view?usp=drive_link',
 
     }
 
