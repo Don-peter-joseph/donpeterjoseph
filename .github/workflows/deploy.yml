@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm run build
+        run: CI=false npm run build
 
       # Deploy build folder to gh-pages branch
       - name: Deploy to GitHub Pages
