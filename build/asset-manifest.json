@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/donpeterjoseph/static/css/main.e349c345.css",
+    "main.js": "/donpeterjoseph/static/js/main.73ef7f32.js",
+    "static/media/sreehari.JPG": "/donpeterjoseph/static/media/sreehari.d968e6a0acb9995e5bb1.JPG",
+    "static/media/home.png": "/donpeterjoseph/static/media/home.f7df4335eabb1aa1d12e.png",
+    "static/media/photos.png": "/donpeterjoseph/static/media/photos.ae95e9c37430489709e3.png",
+    "static/media/me.JPG": "/donpeterjoseph/static/media/me.cf9134d6ee90f514c07b.JPG",
+    "static/media/resume.jpg": "/donpeterjoseph/static/media/resume.30c3d1702b04a8716534.jpg",
+    "static/media/amith.jpg": "/donpeterjoseph/static/media/amith.4a59aea6c9a126568599.jpg",
+    "static/media/jumptomonth.png": "/donpeterjoseph/static/media/jumptomonth.cd677224b77a673fd813.png",
+    "static/media/don3.png": "/donpeterjoseph/static/media/don3.3f80abec5dc4cd2071f0.png",
+    "static/media/resume.pdf": "/donpeterjoseph/static/media/resume.2918b5584f685d6e1bcb.pdf",
+    "static/media/signup.png": "/donpeterjoseph/static/media/signup.9bc64bef5b1c6f640b08.png",
+    "static/media/settings.png": "/donpeterjoseph/static/media/settings.f94ae83fc395f9e13daf.png",
+    "static/media/signin.png": "/donpeterjoseph/static/media/signin.2d66ef11a5a1e0a85444.png",
+    "static/media/search.png": "/donpeterjoseph/static/media/search.ab14d6de286185fbd076.png",
+    "static/media/searchbar.png": "/donpeterjoseph/static/media/searchbar.ab14d6de286185fbd076.png",
+    "static/media/resetotp.png": "/donpeterjoseph/static/media/resetotp.88a6c4560eefbc9673bd.png",
+    "static/media/diary.png": "/donpeterjoseph/static/media/diary.2a0f645580d0aca98321.png",
+    "static/media/don_latest.jpeg": "/donpeterjoseph/static/media/don_latest.a9f0595dd67545677bee.jpeg",
+    "static/media/jump.png": "/donpeterjoseph/static/media/jump.cf0183ab70f1c9f91df5.png",
+    "static/media/mail.png": "/donpeterjoseph/static/media/mail.c78f8d048e81cd4309cb.png",
+    "static/media/phone.png": "/donpeterjoseph/static/media/phone.69a21bef6b5191c8de9f.png",
+    "index.html": "/donpeterjoseph/index.html",
+    "main.e349c345.css.map": "/donpeterjoseph/static/css/main.e349c345.css.map",
+    "main.73ef7f32.js.map": "/donpeterjoseph/static/js/main.73ef7f32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e349c345.css",
+    "static/js/main.73ef7f32.js"
+  ]
+}
